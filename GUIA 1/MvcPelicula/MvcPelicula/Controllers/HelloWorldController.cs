@@ -18,5 +18,5 @@ namespace MvcPelicula.Controllers
             return View();
         }
 
-        }
+    } 
 }
