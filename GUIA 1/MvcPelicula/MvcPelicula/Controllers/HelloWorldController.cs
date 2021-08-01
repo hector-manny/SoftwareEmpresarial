@@ -13,7 +13,7 @@ namespace MvcPelicula.Controllers
         //GET:/HelloWorld/Welcolme
         public ActionResult Welcome(string nombre, int numVeces = 1)
         {
-            ViewBag.Mensaje = "Hola" + nombre;
+            ViewBag.Mensaje = "Hola" + nombre + "veces mostrado =" + numVeces;
             ViewBag.NumVeces = numVeces;
             return View();
         }
