@@ -1,6 +1,6 @@
 package datos;
 
-public class contacto {
+public class Contacto {
 	
 	private String nombre;
 	private long celular;
@@ -8,7 +8,7 @@ public class contacto {
 	public String getNombre() {
 		return nombre;
 	}
-	public contacto(String nombre, long celular) {
+	public Contacto(String nombre, long celular) {
 		super();
 		this.nombre = nombre;
 		this.celular = celular;
@@ -18,7 +18,7 @@ public class contacto {
 	public String toString() {
 		return "contacto [nombre=" + nombre + ", celular=" + celular + "]";
 	}
-	public contacto() {
+	public Contacto() {
 		super();
 	}
 	public void setNombre(String nombre) {
